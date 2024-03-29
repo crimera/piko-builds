@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 16 * * *"
+  repository_dispatch:
 
 jobs:
   check:
