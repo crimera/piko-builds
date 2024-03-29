@@ -8,14 +8,14 @@ rv-brand = "Piko Patches"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons'"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter'"
 
 
 [twitter-non-monet]
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons'"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter'"
 excluded-patches = "'Dynamic color'"
 
 [x]
@@ -23,11 +23,10 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons'"
-excluded-patches = "'Bring back twitter'"
 
 [x-non-monet]
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons'"
-excluded-patches = "'Dynamic color' 'Bring back twitter'"
+excluded-patches = "'Dynamic color'"
