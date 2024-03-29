@@ -167,8 +167,7 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
-log "\nUsed [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)"
-log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)"
+log "\nUsed [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
 log "\nChangelog:"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
