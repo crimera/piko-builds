@@ -1,10 +1,9 @@
 twitter: 10.34.0-release.0  
-x-non-monet: 10.34.0-release.0  
-twitter-non-monet: 10.34.0-release.0  
 x: 10.34.0-release.0  
+twitter-non-monet: 10.34.0-release.0  
+x-non-monet: 10.34.0-release.0  
 
-Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
-Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
+Used [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
