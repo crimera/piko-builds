@@ -135,9 +135,6 @@ jobs:
           ${BODY}
 
           *▼ Download Links:*
-          Modules:
-          ${MODULES}
-
           APKs:
           ${APKS}
           "
