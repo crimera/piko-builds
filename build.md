@@ -1,7 +1,7 @@
-x: 10.35.0-release.0  
-x-non-monet: 10.35.0-release.0  
 twitter-non-monet: 10.35.0-release.0  
 twitter: 10.35.0-release.0  
+x-non-monet: 10.35.0-release.0  
+x: 10.35.0-release.0  
 
 Used [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
