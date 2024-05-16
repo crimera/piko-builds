@@ -2,26 +2,26 @@ enable-magisk-update = false
 
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
-rv-brand = "Piko Patches"
+rv-brand = "Piko"
+
+[twitter-material-design]
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate'"
+
 
 [twitter]
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate'"
-
-
-[twitter-non-monet]
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate'"
 excluded-patches = "'Dynamic color'"
 
-[x]
+[x-material-design]
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate'"
 
-[x-non-monet]
+[x]
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate'"
