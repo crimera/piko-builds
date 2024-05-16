@@ -121,7 +121,7 @@ jobs:
           for OUTPUT in *; do
             DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
             if [[ $OUTPUT = *.apk ]]; then
-              APKS+="${NL}📦[${OUTPUT}](${DL_URL})"
+              APKS+="${NL}${NL}📦[${OUTPUT}](${DL_URL})"
             elif [[ $OUTPUT = *.zip ]]; then
               MODULES+="${NL}📦[${OUTPUT}](${DL_URL})"
             fi
@@ -129,13 +129,14 @@ jobs:
           MODULES=${MODULES#"$NL"}
           APKS=${APKS#"$NL"}
 
-          BODY="$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)"
-          MSG="*New build!*
+          BODY="$(sed -n '/^CLI:/,$p' ../build.md | sed 's/^Changelog/↪ See Changelog/g; s/^- \*//g; s/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; /^==/d; /^$/d')"
+
+          MSG="*New Update Released !*
 
           ${BODY}
 
-          *▼ Download Links:*
-          APKs:
+          *▼ Download ▼ *
+          
           ${APKS}
           "
           echo "'$MSG'"
